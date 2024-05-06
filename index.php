@@ -23,6 +23,7 @@ if ($conn->connect_error) {
 // Define routes
 $routes = [
     '/' => 'home.php',
+    '/major-depression-disorder'=> 'major-depression-disorder.php'
     // '/about' => 'about.php',
     // '/contact' => 'contact.php'
 ];
