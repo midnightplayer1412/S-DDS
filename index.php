@@ -20,6 +20,9 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
+// include all the SQL query
+include __DIR__ . '/query.php';
+
 // Define routes
 $routes = [
     '/' => 'home.php',

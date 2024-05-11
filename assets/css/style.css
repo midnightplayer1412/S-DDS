@@ -1,0 +1,13 @@
+body {
+  background-color: floralwhite;
+}
+
+#question-container {
+  width: 80%;
+  height: 100vh;
+  padding: 100px;
+}
+
+.option {
+  background-color: red;
+}
